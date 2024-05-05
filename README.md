@@ -18,3 +18,6 @@
 
 
 ![image](https://github.com/brunoroveri/Lab04/assets/142548195/e1fd4b48-f40b-4c9e-8f2b-4e4dca914a4e)
+
+
+![image](https://github.com/brunoroveri/Lab04/assets/142548195/ac0137a5-0a22-411c-828f-6c2381a15505)
