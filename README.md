@@ -1,5 +1,7 @@
 Bruno Roveri - 10401752
+
 Lucas Farias - 10402521
+
 Leonardo Binder - 10402289
 
 
