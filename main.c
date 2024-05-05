@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 // Definição da estrutura da célula da lista encadeada
 struct reg {
@@ -37,7 +38,9 @@ void limparLista(celula **inicio) {
 
 // Função para calcular o máximo de elementos possíveis na fila com base na memória disponível
 int maxElementosPossiveis() {
-    size_t memoria_disponivel = /* calcular a memória disponível no seu sistema */;
+    long pagesize = sysconf(_SC_PAGESIZE);
+    long numpages = sysconf(_SC_PHYS_PAGES);
+    long memoria_disponivel = pagesize * numpages;
     size_t tamanho_celula = sizeof(celula);
     return (int)(memoria_disponivel / tamanho_celula);
 }
