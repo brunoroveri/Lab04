@@ -1,5 +1,6 @@
-
-
+Bruno Roveri - 10401752
+Lucas Farias - 10402521
+Leonardo Binder - 10402289
 
 
 ![image](https://github.com/brunoroveri/Lab04/assets/142548195/56690a4f-94c1-4413-81b0-836ec80ea543)
